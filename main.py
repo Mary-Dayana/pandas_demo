@@ -1,18 +1,18 @@
-from secret import username, password
+#from secret import username, password
 from decouple import config
 
 print("hello world")
-print(username,password)
+#print(username,password)
 
-user1 = config('username')
-password1 = config('pasword')
+user= config('user1')
+password = config('password1')
 
 # USER1=config('user1')
 # PASSWORD1=config('password1')
 
-print(user1)
-print(password1)
-
+print(user)
+print(password)
+print("hello")
 # from secret import username, password
 # from decouple import config
 
